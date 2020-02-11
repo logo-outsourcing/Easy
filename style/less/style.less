@@ -1,0 +1,96 @@
+@import "home";
+
+@font-face {
+  font-family: 'Panton Light';
+  src: url('../../fonts/PantonLight/Panton-Light.eot');
+  src: url('../../fonts/PantonLight/Panton-Light.eot?#iefix') format('embedded-opentype'),
+  url('../../fonts/PantonLight/Panton-Light.woff') format('woff'),
+  url('../../fonts/PantonLight/Panton-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Panton Regular';
+  src: url('../../fonts/PantonRegular/Panton-Regular.eot');
+  src: url('../../fonts/PantonRegular/Panton-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../../fonts/PantonRegular/Panton-Regular.woff') format('woff'),
+  url('../../fonts/PantonRegular/Panton-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Panton Bold';
+  src: url('../../fonts/PantonBold/Panton-Bold.eot');
+  src: url('../../fonts/PantonBold/Panton-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../../fonts/PantonBold/Panton-Bold.woff') format('woff'),
+  url('../../fonts/PantonBold/Panton-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Panton Semibold';
+  src: url('../../fonts/PantonSemibold/Panton-SemiBold.eot');
+  src: url('../../fonts/PantonSemibold/Panton-SemiBold.eot?#iefix') format('embedded-opentype'),
+  url('../../fonts/PantonSemibold/Panton-SemiBold.woff') format('woff'),
+  url('../../fonts/PantonSemibold/Panton-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Panton ExtraBold';
+  src: url('../../fonts/PantonExtrabold/Panton-ExtraBold.eot');
+  src: url('../../fonts/PantonExtrabold/Panton-ExtraBold.eot?#iefix') format('embedded-opentype'),
+  url('../../fonts/PantonExtrabold/Panton-ExtraBold.woff') format('woff'),
+  url('../../fonts/PantonExtrabold/Panton-ExtraBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.content-container {
+  max-width: 980px;
+  width: 90%;
+  margin: 0 auto;
+}
+.content-row{
+  display: flex;
+  flex-direction: row;
+}
+.content-column{
+  display: flex;
+  flex-direction: column;
+}
+.content-icon{
+  margin-right: 11px;
+}
+.content-image{
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.content-wrap{
+  background: url("../../img/home/bg-header.png") no-repeat;
+  margin: 11px 0 0;
+}
+.content-wrapper{
+  position: relative;
+  &:after{
+    content: "";
+    position: absolute;
+    background: url("../../img/home/bg-section.png") no-repeat;
+    background-size: cover;
+    bottom: -23px;
+    left: 0;
+    right: 0;
+    top: -208px;
+    z-index: -1;
+  }
+
+}
+.content-title{
+  font-family: "Panton Regular",sans-serif;
+  font-size: 30px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #0c0c0c;
+  text-align: center;
+}

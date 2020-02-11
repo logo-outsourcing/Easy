@@ -1,0 +1,524 @@
+.header {
+  margin-bottom: 40px;
+
+  &__heading {
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 33px;
+  }
+  &__name {
+    width: 20%;
+    position: relative;
+  }
+  &__logo {
+
+  }
+  &__text {
+    font-family: 'Panton Light', sans-serif;
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    color: #606060;
+    position: absolute;
+    bottom: -41px;
+    right: 5px;
+    width: 73%;
+  }
+  &__form {
+    background-color: #ffbabe;
+    background-image: linear-gradient(90.0deg, #fdb745 0%, #7fce41 50%, #04a65a 100%);
+    border-radius: 10.0px;
+    width: 41%;
+    padding: 8px;
+    margin: 37px 0 0;
+    justify-content: space-between;
+  }
+  &__wrap {
+    background-image: linear-gradient(90.0deg, #fdee45 0%, #83ff21 50%, #00d370 100%);
+    padding: 2px;
+    border-radius: 10px;
+    width: 75%;
+  }
+  &__input {
+    background-color: #ffffff;
+    border: 2.0px solid transparent;
+    border-radius: 10px;
+    width: 100%;
+  }
+  &__search {
+    background: transparent;
+    border: none;
+    font-family: 'Panton Bold', sans-serif;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+    padding: 0 6%;
+  }
+  &__info {
+    width: 33%;
+    padding-left: 3%;
+    box-sizing: border-box;
+  }
+  &__topline {
+    justify-content: space-between;
+    align-items: center;
+    margin: 7px 0 16px;
+
+  }
+  &__cabinet {
+    font-family: "Panton Semibold", sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 600;
+    text-decoration: underline;
+    color: #2e2e2e;
+    align-items: center;
+    &:hover {
+      text-decoration: none;
+    }
+
+  }
+  &__basket {
+    font-family: "Panton ExtraBold", sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    color: #3f3f3f;
+    align-items: center;
+    text-decoration: none;
+    &--icon {
+      background-color: #ffffff;
+      border: 1.0px solid rgba(4, 166, 90, 0.1);
+      border-radius: 50%;
+      margin-right: 17px;
+      padding: 12px 10px;
+    }
+  }
+  &__social {
+    font-family: "Panton Semibold", sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #676767;
+    align-items: center;
+    text-decoration: none;
+    &--bold {
+      font-family: "Panton Bold", sans-serif;
+      line-height: 16px;
+      font-weight: 700;
+    }
+    &--name {
+      font-family: "Panton Bold", sans-serif;
+      line-height: 16px;
+      font-weight: 700;
+      color: #d71394;
+    }
+  }
+  &__list {
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__link {
+    font-family: "Panton Bold", sans-serif;
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #2e2e2e;
+    position: relative;
+    text-decoration: none;
+    &:after {
+      content: "";
+      position: absolute;
+      height: 2px;
+      background-color: #5dc348;
+      width: 100%;
+      bottom: -5px;
+      left: 0;
+    }
+    &:hover {
+      color: #5dc348;
+    }
+  }
+}
+
+.header__input[placeholder] {
+  font-family: 'Panton Regular', sans-serif;
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #c2c2c2;
+}
+
+.header__input::-moz-placeholder {
+  font-family: 'Panton Regular', sans-serif;
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #c2c2c2;
+}
+
+.header__input:-moz-placeholder {
+  font-family: 'Panton Regular', sans-serif;
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #c2c2c2;
+}
+
+.header__input:-ms-input-placeholder {
+  font-family: 'Panton Regular', sans-serif;
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #c2c2c2;
+}
+
+.banner {
+  background: url("../../img/home/banner.png") no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 473px;
+  margin-bottom: 32px;
+}
+
+.advantages {
+  margin-bottom: 52px;
+  &__list {
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__item {
+    align-items: center;
+    justify-content: center;
+  }
+  &__icon {
+    margin-bottom: 18px;
+  }
+  &__name {
+    font-family: 'Panton Light', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #0e0e0e;
+  }
+}
+
+.categories {
+  padding-bottom: 70px;
+  &__wrapper {
+    width: 87%;
+    margin: 0 auto;
+    position: relative;
+  }
+  &__wrap {
+    position: relative;
+    z-index: 99;
+    box-sizing: border-box;
+    padding: 177px 78px 90px;
+    width: 47%;
+    &:after {
+      content: "";
+      position: absolute;
+      top: -25px;
+      bottom: 0;
+      left: -7px;
+      right: 0;
+      z-index: -1;
+      background: url("../../img/home/categories.png") no-repeat;
+    }
+
+  }
+  &__title {
+    font-family: 'Panton Light', sans-serif;
+    font-size: 29px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-bottom: 13px;
+    &--text {
+      margin-bottom: 10px;
+      display: block;
+    }
+    &--color {
+      font-family: 'Panton Regular', sans-serif;
+      font-size: 55px;
+      line-height: 55px;
+      font-weight: 400;
+      color: #f6ff00;
+    }
+  }
+  &__text {
+    font-family: 'Panton Regular', sans-serif;
+    font-size: 15px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    width: 85%;
+  }
+  &__list {
+  }
+  &__item {
+    z-index: 9;
+    padding: 28px 53px 28px 0;
+    position: absolute;
+    box-sizing: border-box;
+    text-align: right;
+
+    &--one {
+      background: url("../../img/home/categories_element1.png") no-repeat;
+      width: 409px;
+      top: 20px;
+      right: 11%;
+    }
+    &--two {
+      background: url("../../img/home/categories_element2.png") no-repeat;
+      width: 498px;
+      top: 118px;
+      right: 2%;
+    }
+    &--three {
+      background: url("../../img/home/categories_element3.png") no-repeat;
+      width: 556px;
+      top: 216px;
+      right: 0;
+
+    }
+    &--fo {
+      background: url("../../img/home/categories_element4.png") no-repeat;
+      width: 567px;
+      right: 14%;
+      top: 312px;
+    }
+  }
+  &__link {
+    font-family: 'Panton Bold', sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+  }
+}
+
+.product {
+  margin-bottom: 75px;
+  &__title {
+    margin-bottom: 72px;
+  }
+  &__item {
+    width: 24%;
+    border: 1.0px solid transparent;
+    padding: 27px 0;
+    &:hover {
+      border-color: rgba(253, 183, 69, 0.12);
+      border-radius: 20.0px;
+      box-shadow: 2px 4px 24px 0 rgba(253, 183, 69, 0.18);
+    }
+  }
+  &__link {
+    text-align: center;
+    text-decoration: none;
+    .product__image {
+      margin-bottom: 22px;
+    }
+  }
+
+  &__name {
+    font-family: "Panton Semibold", sans-serif;
+    font-size: 17px;
+    line-height: 18px;
+    font-weight: 600;
+    text-decoration: underline;
+    color: #0c0c0c;
+    margin-bottom: 11px;
+  }
+  &__info {
+    font-family: "Panton Regular", sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #8d8d8d;
+    width: 50%;
+    margin: 0 auto 20px;
+  }
+  &__price {
+    font-family: 'Panton ExtraBold', sans-serif;
+    font-size: 24px;
+    line-height: 18px;
+    font-weight: 800;
+    color: #000000;
+    display: block;
+    margin-bottom: 27px;
+  }
+  &__button {
+    border: none;
+    background-color: #fdb745;
+    border-radius: 20.0px;
+    font-family: 'Panton Bold', sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+    visibility: hidden;
+    margin: 0 auto 15px;
+    padding: 11px 29px;
+    box-sizing: border-box;
+    display: block;
+    cursor: pointer;
+  }
+}
+
+.product__item:hover > .product__button {
+  visibility: visible;
+}
+
+.brands {
+  padding: 32px 0 70px;
+  background: url("../../img/home/bg-brands.png") no-repeat;
+  background-size: cover;
+  &__title {
+    margin-bottom: 81px;
+  }
+
+}
+
+.swiper-button-prev, .swiper-button-next {
+  transition: all .3s ease;
+}
+
+.brands__slider  .swiper-button-prev {
+  opacity: 0;
+  left: -20px;
+}
+
+.brands__slider  .swiper-button-next {
+  opacity: 0;
+  right: -20px;
+}
+
+.brands__slider :hover > .swiper-button-prev {
+  opacity: 0.7;
+  left: 10px;
+
+}
+
+.brands__slider :hover > .swiper-button-next {
+  opacity: 0.7;
+  right: 10px;
+}
+
+.contact {
+  background: url("../../img/home/bg-contact.png") no-repeat;
+  background-size: cover;
+  padding: 52px 0 60px;
+  &__info {
+    width: 63%;
+    padding-left: 14%;
+    box-sizing: border-box;
+  }
+  &__title {
+    font-family: 'Panton Bold', sans-serif;
+    font-size: 22px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 8px;
+  }
+
+  &__text {
+    font-family: 'Panton Regular', sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #fffefe;
+  }
+  &__call {
+    border: 2.0px solid #ffffff;
+    border-radius: 20.0px;
+    font-family: 'Panton Semibold', sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #fffefe;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 2%;
+  }
+}
+
+.footer {
+  padding: 35px 0;
+  &__content {
+    justify-content: space-between;
+  }
+  &__info {
+    width: 18%;
+  }
+  &__logo {
+    position: relative;
+    margin-bottom: 32px;
+
+  }
+  &__text {
+    font-family: 'Panton Light', sans-serif;
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    color: #606060;
+    position: absolute;
+    bottom: -15px;
+    right: 0;
+    width: 73%;
+  }
+  &__social {
+    align-items: center;
+    &--link {
+      width: 40px;
+      margin-right: 2%;
+    }
+  }
+  &__image {
+    width: 100%;
+  }
+  &__list {
+    width: 18%;
+  }
+  &__name {
+    font-family: 'Panton Semibold', sans-serif;
+    line-height: 13px;
+    letter-spacing: 0.1em;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 22px;
+    margin-top: 6px;
+  }
+  &__item {
+    margin-bottom: 7px;
+
+  }
+  &__link {
+    font-family: 'Panton Regular', sans-serif;
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    color: #000000;
+    text-decoration: none;
+  }
+}
